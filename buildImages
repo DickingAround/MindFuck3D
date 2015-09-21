@@ -1,0 +1,2 @@
+mogrify -resize 640x480 ./images/*.png
+convert -delay 5 -loop 0 ./images/*.png ./images/newimage.gif

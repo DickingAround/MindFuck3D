@@ -1,0 +1,22 @@
+Found a no-collision result
+Showing the best result so far
+Efficency:18.846112
+moveDistance:	1.18832624342
+actuatorDisplacement:	0.0630541871921
+rtinit,rcinit,ltinit,lcinit,lc1,rt2,rc3,lt4,lc6
+vars:	[1.3857142857142857, 1.4172413793103447, 1.5, 1.3206896551724139, 1.3206896551724139, 1.414, 1.414, 1.414, 1.414]
+minHeight:	8.93577684493
+efficency:	18.8461115168
+maxHeight:	8.99999962929
+collision distance is
+0.009
+Final results list has 79059.000000 possible solutions
+Efficency:18.846112
+moveDistance:	1.18832624342
+actuatorDisplacement:	0.0630541871921
+rtinit,rcinit,ltinit,lcinit,lc1,rt2,rc3,lt4,lc6
+vars:	[1.3857142857142857, 1.4172413793103447, 1.5, 1.3206896551724139, 1.3206896551724139, 1.414, 1.414, 1.414, 1.414]
+minHeight:	8.93577684493
+efficency:	18.8461115168
+maxHeight:	8.99999962929
+

@@ -1,0 +1,36 @@
+from mass import *
+from joint import *
+from structureDisplay import *
+from structureSeed import *
+from mech import *
+import time
+def test_software():
+	#Mass calculation testing
+	p = True
+	if not joint.test_joint():
+		p = False 
+	if not test_mass():
+		p = False	
+	if p:	
+		print "Passed tests"
+
+if __name__ == '__main__':
+	import sys
+	if(len(sys.argv) > 1 and sys.argv[1] == '-t'):
+		test_software()
+		sys.exit()
+	elif(len(sys.argv) > 1 and sys.argv[1] == '-td'):
+		disp = structureDisplay()	
+		structure = test_structureSeed_pyramid()	
+		structure.computeLocations()
+		disp.displayLines_animate(structure.getLinesList(),save=True)
+		#disp.displayLines(structure.getLinesList())
+	else:
+		disp= structureDisplay()
+		mech = mech()
+		mech.computeLocations()
+		#disp.displayLines_animate(mech.struct.getLinesList(),save=False)	
+		disp.displayLines(mech.struct.getLinesList())	
+	foo = raw_input("Press enter to exit")
+	print "done"
+
